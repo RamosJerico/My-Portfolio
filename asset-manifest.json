@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/My-Portfolio/static/css/main.2a8d784a.chunk.css",
+    "main.js": "/My-Portfolio/static/js/main.8ed25e1d.chunk.js",
+    "main.js.map": "/My-Portfolio/static/js/main.8ed25e1d.chunk.js.map",
+    "runtime-main.js": "/My-Portfolio/static/js/runtime-main.2feeaf4e.js",
+    "runtime-main.js.map": "/My-Portfolio/static/js/runtime-main.2feeaf4e.js.map",
+    "static/js/2.1fc88b09.chunk.js": "/My-Portfolio/static/js/2.1fc88b09.chunk.js",
+    "static/js/2.1fc88b09.chunk.js.map": "/My-Portfolio/static/js/2.1fc88b09.chunk.js.map",
+    "index.html": "/My-Portfolio/index.html",
+    "precache-manifest.5a08831713e56c1d34efe384bdee2ce0.js": "/My-Portfolio/precache-manifest.5a08831713e56c1d34efe384bdee2ce0.js",
+    "service-worker.js": "/My-Portfolio/service-worker.js",
+    "static/css/main.2a8d784a.chunk.css.map": "/My-Portfolio/static/css/main.2a8d784a.chunk.css.map",
+    "static/js/2.1fc88b09.chunk.js.LICENSE.txt": "/My-Portfolio/static/js/2.1fc88b09.chunk.js.LICENSE.txt",
+    "static/media/Gallery.css": "/My-Portfolio/static/media/prgbackground.425ae0f7.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.2feeaf4e.js",
+    "static/js/2.1fc88b09.chunk.js",
+    "static/css/main.2a8d784a.chunk.css",
+    "static/js/main.8ed25e1d.chunk.js"
+  ]
+}
