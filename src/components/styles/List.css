@@ -1,0 +1,67 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.list {
+    height: 80px;
+    width: 700px;
+    margin: 4px;
+    padding: 6px;
+    background-color: #444;
+    justify-content: start;
+    align-items: center;
+    display: flex;
+}
+.list:hover {
+    transform: scale(1.1);
+    transition: 0.6s ease;
+    cursor: pointer;
+}
+.list-image-box {
+    height: 100%;
+    width: 30%;
+}
+.imageFile {
+    max-width: 100%;
+    max-height: 100%;
+}
+.list-title {
+    font-family: 'Century Gothic' Courier New, Courier, monospace;
+    font-size: 24px;
+}
+.blue {
+    background-color: #276afb;
+    color: #fff;
+    border: none;
+}
+.red {
+    background-color: #d73a3a;
+    color: #fff;
+    border: none;
+}
+.red:hover {
+    background-color: #d73a3a;
+    color: #fff;
+    border: none;
+}
+.yellow {
+    background-color: #d4e140;
+    color: #fff;
+    border: none;
+}
+.green {
+    background-color: #3ddc4f;
+    color: #fff;
+    border: none;
+}
+.orange {
+    background-color: #df923b;
+    color: #fff;
+    border: none;
+}
+@media screen and (max-width:991px) {
+    .list {
+        max-width: 100%;
+    }
+}

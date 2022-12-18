@@ -1,0 +1,124 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  --mainColor: #15172b;
+  --secondaryColor: #fff;
+  --textColor: #fff;
+  --textColorBlack: black;
+}
+.navbar {
+  width: 100%;
+  height: 115px;
+  font-size: 22px;
+  font-family: Century Gothic;
+  font-weight: 600;
+  background-color: var(--mainColor);
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  gap: 2rem;
+}
+.navbar-container {
+  margin: 8px;
+  padding: 8px 16px;
+  width: 80%;
+  height: 100%;
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+  color: var(--textColorBlack);
+}
+.img-logo {
+  height: 100px;
+  width: 155px;
+}
+.img-logo:hover {
+  cursor: pointer;
+}
+.nav-menu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  list-style: none;
+  text-align: center;
+  justify-content: end;
+}
+.nav-item {
+  padding: 8px 6px;
+  border-bottom: 2px solid transparent;
+}
+.nav-item:hover {
+  cursor: pointer;
+  border-radius: 30%;
+  border-bottom: 2px solid #fff;
+}
+.nav-link {
+  margin: 8px 16px;
+  padding: 5px;
+  text-decoration: none;
+  color: var(--textColor);
+}
+.fa-bars {
+  color: #fff;
+}
+.menu-icon {
+  display: none;
+}
+@media screen and (max-width: 960px) {
+  .NavbarItems {
+    position: relative;
+  }
+  .nav-menu {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 92vh;
+    position: absolute;
+    top: 80px;
+    left: -100%;
+    opacity: 1;
+    transition: all 0.5s ease;
+  }
+  .nav-menu.active{
+    background: #15172b;
+    left: 0;
+    opacity: 1;
+    transition: all 0.6s ease;
+    z-index: 1;
+  }
+  .nav-item {
+    padding: 24px 16px;
+    margin: 16px;
+  }
+  .nav-item:hover {
+    cursor: pointer;
+    border-radius: 30%;
+    border-bottom: 2px solid #fff;
+  }
+  .nav-links {
+    text-align: center;
+    padding: 2rem;
+    width: 100%;
+    display: table;
+  }
+  .menu-icon {
+    padding-top: 15px;
+    padding-right: 15px;
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: translate(-100%, 60%);
+    font-size: 1.8rem;
+    cursor: pointer;
+  }
+  .fa-times {
+    color: #fff;
+    font-size: 2rem;
+  }
+}

@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.gallery {
+    height: 100%;
+    width: 100%;
+    color: #fff;
+    background-image: url("prgbackground.jpg");
+}
+.gallery-container {
+    padding: 16px 24px;
+    padding-left: 50px;
+}
+.gallery-item {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    width: 100%;
+    padding: 12px;
+    font-size: 24px;
+}
